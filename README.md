@@ -20,7 +20,7 @@ Ejecutar el cliente:
 python client.py
 ```
 
-Para enviar un mensaje al servidor, escriba el mensaje en la consola y presione enter. Para enviar el mensaje DESCONEXION, escriba DESCONEXION y presione enter.
+Para enviar un mensaje al servidor, escriba el mensaje en la consola y presione enter. Para enviar el mensaje que cierra la conexión, escriba DESCONEXION y presione enter.
 
 
 

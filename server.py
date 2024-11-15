@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
 
 
 class TCPServer(object):
-    def __init__(self, host='127.0.0.1', port=6000):
+    def __init__(self, host='127.0.0.1', port=5000):
         self.host = host
         self.port = port
         self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

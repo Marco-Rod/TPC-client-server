@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.sqlite3
+*.db
+
+# Entornos virtuales
+venv/
+.env/
+env/
+.venv/
+*.venv
+
+# Archivos de configuración y entorno
+*.env
+*.ini
+*.cfg
+
+# Archivos específicos de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos y directorios de logs
+logs/
+*.log
+
+# Archivos de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales
+*.tmp
+*.temp
+git

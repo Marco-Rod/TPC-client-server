@@ -18,7 +18,7 @@ class TestServer(unittest.TestCase):
     def test_server_connection(self):
         # Conectar al servidor
         client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        client_socket.connect(('127.0.0.1', 6000))
+        client_socket.connect(('127.0.0.1', 5000))
         client_socket.send("Hola, servidor!".encode('utf-8'))
         response = client_socket.recv(1024).decode('utf-8')
         self.assertIn("Hola, servidor!", response)
